@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="view-wrapper.css">
+    
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- <div onload="isactiveFunction();" class="pageloader"></div>
+    <div onload="areactiveFunction();" class="infraloader"></div>
+    <div class="app-overlay"></div> -->
+    <header>
+        <div class="logo">
+            <img src="mag1.png" alt="">
+        </div>
+        <section class="nav-start">
+            <div onclick="heartIconFunction()" class="navbar-item">
+                <span class="red-back" href=""><i class="far fa-heart"></i></span>
+                <div class="nav-drop-heart">
+                    <div class="inner">
+                        <div class="nav-drop-header">
+                            <span>Friend requests</span>
+                            <a href="#">Find Friends</a>
+                        </div>
+                        <div class="nav-drop-body">
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem lorem</span>
+                                </div>
+                                <div class="media-right">
+                                    <button><i class="fas fa-user-plus"></i></button>
+                                    <button><i class="fas fa-user-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                </div>
+                                <div class="media-right">
+                                    <button><i class="fas fa-user-plus"></i></button>
+                                    <button><i class="fas fa-user-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                </div>
+                                <div class="media-right">
+                                    <button><i class="fas fa-user-plus"></i></button>
+                                    <button><i class="fas fa-user-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                </div>
+                                <div class="media-right">
+                                    <button><i class="fas fa-user-plus"></i></button>
+                                    <button><i class="fas fa-user-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                </div>
+                                <div class="media-right">
+                                    <button><i class="fas fa-user-plus"></i></button>
+                                    <button><i class="fas fa-user-minus"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="nav-drop-footer">
+                            <a href="">Clear All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="bellIconFunction()" class="navbar-item">
+                <span class="blue-back" href=""><i class="far fa-bell"></i></span>
+                <div class="nav-drop-bell">
+                    <div class="inner">
+                        <div class="nav-drop-header">
+                            <span>notifications</span>
+                            <a href="#">view all</a>
+                        </div>
+                        <div class="nav-drop-body">
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fas fa-comments"></i></div>
+
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fab fa-gratipay"></i></div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fab fa-gratipay"></i></div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fas fa-comments"></i></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="nav-drop-footer">
+                            <a href="">Clear All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="envelopeIconFunction()" class="navbar-item">
+                <span class="blue-back" href=""><i class="far fa-envelope"></i></span>
+                <div class="nav-drop-envelope">
+                    <div class="inner">
+                        <div class="nav-drop-header">
+                            <span>messages</span>
+                            <a href="#">inbox</a>
+                        </div>
+                        <div class="nav-drop-body">
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fas fa-comment-dots"></i></div>
+
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fas fa-comment-dots"></i></div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fas fa-comment-dots"></i></div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <figure class="media-left">
+                                    <p>
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </p>
+                                </figure>
+                                <div class="media-content">
+                                    <a class="media-content-a" href="">gulnar abba</a>
+                                    <span>lorem lorem lorem lorem lorem</span>
+                                    <span class="notification-time">30 minutes ago</span>
+                                </div>
+                                <div class="media-right">
+                                    <div class="comment-button"><i class="fas fa-comment-dots"></i></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="nav-drop-footer">
+                            <a href="">Clear All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-item">
+                <span class="red-back" href=""><i class="far fa-comment-alt"></i></span>
+            </div>
+            <div class="navbar-item">
+                <span class="red-back" href=""><i class="fas fa-outdent"></i></span>
+            </div>
+        </section>
+        <section class="nav-end">
+            <div class="navbar-item-input">
+                <div class="global-search">
+                    <input type="text" placeholder="search">
+                    <span class="search-icon"><i class="fas fa-search" style="color: #cecece;"></i></span>
+                    <span class="clean-icon"><i class="fas fa-broom" style="color: #cecece;"></i></span>
+                    <div class="search-content">
+                        <div class="search-drop-box">
+                            <div class="drop-wrapper">
+                                <a href="">
+                                    <div class="drop-item">
+                                        <div class="drop-left">
+                                            <img src="https://friendkit.cssninja.io/assets/img/avatars/bobby.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="drop-right">DAn walker</div>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="drop-item">
+                                        <div class="drop-left">
+                                            <img src="https://friendkit.cssninja.io/assets/img/avatars/bobby.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="drop-right">DAn walker</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-item is-basket">
+                <i class="fas fa-shopping-cart" style="color: #6f7592;"></i>
+            </div>
+            <div onclick="accountImageFunction()" class="account-dropdown">
+                <img src="https://via.placeholder.com/400x400" alt="">
+            </div>
+            <div class="nav-drop-account">
+                <div class="inner">
+                    <div class="nav-drop-header account-drop">
+                        <span class="">gulnar abba</span>
+                        <a href="#">profile</a>
+                    </div>
+
+                    <div class="nav-drop-body account-media">
+                        <div class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <a class="media-content-a" href="">gulnar abba</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+                            <div class="media-right right-account">
+                                <div class="comment-button"><i class="fas fa-bookmark"></i></div>
+
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="account" class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <a class="media-content-a" href="">gulnar abba</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+
+                        </div>
+                        <div id="account" class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <a class="media-content-a" href="">gulnar abba</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+
+                        </div>
+                        <div id="account" class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                </p>
+                            </figure>
+                            <div class="media-content ">
+                                <a class="media-content-a" href="">gulnar abba</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+
+                        </div>
+                        <hr class="hr-account">
+                        <div id="account" class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <i class="fas fa-cog"></i>
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <a class="media-content-a" href="">settings</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+
+                        </div>
+                        <div id="account" class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <i class="fab fa-hire-a-helper"></i>
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <a class="media-content-a" href="">Help</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+
+                        </div>
+                        <div id="account" class="media">
+                            <figure class="media-left">
+                                <p>
+                                    <i class="fas fa-power-off"></i>
+                                </p>
+                            </figure>
+                            <div class="media-content ">
+                                <a class="media-content-a" href="">log out</a>
+                                <span>lorem lorem lorem</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div onclick="burgerFunction()" class="burger-menu">
+                <div class="nav-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <i class="fas fa-hamburger"></i>
+            </div>
+            <div id="mydiv" class="nav-menu-burger">
+                <div class="burger-navbar has-dropdown">
+                    <div class="navbar-link">
+                        <img src="https://via.placeholder.com/150x150" alt="">
+                        <span>ADIL</span>
+                    </div>
+                    <div class="navbar-dropdown">
+                        <a href="" class="nav-mobile">
+                            <span><i class="fas fa-male mobile_icon"></i> Profile</span></a>
+                        <a href="" class="nav-mobile">
+                            <span><i class="fas fa-cart-plus mobile_icon"></i> Cart</span><span
+                                class="menu-badge-cart">3</span></a>
+                        <a href="" class="nav-mobile">
+                            <span><i class="fas fa-bolt mobile_icon"></i>Feed</span><span
+                                class="menu-badge-feed">87</span></a>
+                        <a href="" class="nav-mobile">
+                            <span><i class="fas fa-cog mobile_icon"></i> Settings</span></a>
+                        <a href="" class="nav-mobile">
+                            <span><i class="fas fa-sign-out-alt mobile_icon"></i> Logout</span></a>
+                    </div>
+                </div>
+                <div class="burger-navbar-asistance">
+                    <a class="navbar-link" href="">
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Assistance</span>
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a href="" class="nav-mobile">Help</a>
+                        <a href="" class="nav-mobile">Support</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+    <section class="view-wrapper">
+        <div id="mainfeed" class="container">
+            <div id="activity-feed" class="view-wrap">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card card-left">
+                            <div class="card-heading">
+                                <h4>Recommended Pages</h4>
+                                <div class="dropdown-three-dots">
+                                    <div class="button-dots">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body-left">
+                                <div class="page-block">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="page-meta">
+                                        <span>Fast pizza</span>
+                                        <span>Pizza & Fast Food</span>
+                                    </div>
+                                    <div class="add-page">
+                                        <i class="fas fa-map-pin"></i>
+                                    </div>
+                                </div>
+                                <div class="page-block">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="page-meta">
+                                        <span>Fast pizza</span>
+                                        <span>Pizza & Fast Food</span>
+                                    </div>
+                                    <div class="add-page">
+                                        <i class="fas fa-map-pin"></i>
+                                    </div>
+                                </div>
+                                <div class="page-block">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="page-meta">
+                                        <span>Fast pizza</span>
+                                        <span>Pizza & Fast Food</span>
+                                    </div>
+                                    <div class="add-page">
+                                        <i class="fas fa-map-pin"></i>
+                                    </div>
+                                </div>
+                                <div class="page-block">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="page-meta">
+                                        <span>Fast pizza</span>
+                                        <span>Pizza & Fast Food</span>
+                                    </div>
+                                    <div class="add-page">
+                                        <i class="fas fa-map-pin"></i>
+                                    </div>
+                                </div>
+                                <div class="page-block">
+                                    <img src="https://via.placeholder.com/300x300" alt="">
+                                    <div class="page-meta">
+                                        <span>Fast pizza</span>
+                                        <span>Pizza & Fast Food</span>
+                                    </div>
+                                    <div class="add-page">
+                                        <i class="fas fa-map-pin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card card-middle">
+                            <div class="tabs-wrapper">
+                                <div class="tabs is-boxed">
+                                    <ul>
+                                        <li class="is-active">
+                                            <a href="">
+                                                <i class="fas fa-pen"></i>
+                                                <span>Publish</span>
+                                            </a>
+                                        </li>
+                                        <li class="tabs-click">
+                                            <a href="">
+                                                <i class="fas fa-image"></i>
+                                                <span>albums</span>
+                                            </a>
+                                        </li>
+                                        <li class="tabs-click">
+                                            <a href="">
+                                                <i class="fas fa-video"></i>
+                                                <span>video</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="compose">
+                                        <div class="compose-form">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                            <div class="control">
+                                                <textarea class="textarea" placeholder="write something about you..."
+                                                    rows="3"></textarea>
+                                                <div class="options-summary"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="basic-options">
+                                        <div class="compose-option">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <span>Media</span>
+                                            <input type="file">
+                                        </div>
+                                        <div class="compose-option">
+                                            <i class="fas fa-laugh"></i>
+                                            <span>activities</span>
+
+                                        </div>
+                                        <div class="compose-option">
+                                            <i class="fas fa-ellipsis-h"></i>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-is-post">
+                            <div class="content-wrap">
+                                <div class="card-head">
+                                    <div class="user-block">
+                                        <div class="post-user-image">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                        </div>
+                                        <div class="user-info">
+                                            <a href="">gulnar abba</a>
+                                            <span class="time">yanvar 31 may </span>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-three-dots">
+                                        <div class="button-dots">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="post-text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+                                            exercitationem accusantium animi debitis, </p>
+                                    </div>
+                                    <div class="post-image">
+                                        <a href="">
+                                            <img src="https://via.placeholder.com/1600x900" alt="">
+                                        </a>
+                                        <div class="like-wrapper">
+                                            <a href="">
+                                                <i class="fas fa-heart post-heart"></i>
+                                                <i class="fas fa-heart post-heart"></i>
+                                                <span class="like-overlay"></span>
+                                            </a>
+                                        </div>
+                                        <div class="is-comment">
+                                            <a href="">
+                                                <i class="fas fa-comment-medical"></i>
+                                            </a>
+                                        </div>
+                                        <div class="is-share">
+                                            <a href="">
+                                                <i class="fas fa-share-alt-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="likers-group">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                    <div class="likers-text">
+                                        <p>gulnar abba</p>
+                                        <p>and 23 adam beyendi</p>
+                                    </div>
+                                    <div class="social-count">
+                                        <div class="like-count">
+                                            <i class="fas fa-heart post-heart"></i>
+                                            <span>22</span>
+                                        </div>
+                                        <div class="share-count">
+                                            <i class="fas fa-share-alt-square"></i>
+                                            <span>13</span>
+                                        </div>
+                                        <div class="comment-count">
+
+                                            <i class="fas fa-comment-medical"></i>
+                                            <span>3</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-is-post">
+                            <div class="content-wrap">
+                                <div class="card-head">
+                                    <div class="user-block">
+                                        <div class="post-user-image">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                        </div>
+                                        <div class="user-info">
+                                            <a href="">gulnar abba</a>
+                                            <span class="time">yanvar 31 may </span>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-three-dots">
+                                        <div class="button-dots">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="post-text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+                                            exercitationem accusantium animi debitis, </p>
+                                    </div>
+                                    <div class="post-link is-video">
+                                        <div class="link-image">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                            <div class="video-overlay"></div>
+                                            <a href="video-button">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="link-content">
+                                            <h4><a href=""> What's new in Bootstrap 4 ?</a></h4>
+                                            <p>Before I create the new Bootstrap 4 crash course I want to go over some of the changes from Bootstrap
+                                                3.</p>
+                                            <small>Youtube.com</small>
+                                            <div class="like-wrapper">
+                                                <a href="">
+                                                    <i class="fas fa-heart post-heart"></i>
+                                                    <i class="fas fa-heart post-heart"></i>
+                                                    <span class="like-overlay"></span>
+                                                </a>
+                                            </div>
+                                            <div class="is-comment">
+                                                <a href="">
+                                                    <i class="fas fa-comment-medical"></i>
+                                                </a>
+                                            </div>
+                                            <div class="is-share">
+                                                <a href="">
+                                                    <i class="fas fa-share-alt-square"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="likers-group">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        
+                                        
+                                    </div>
+                                    <div class="likers-text">
+                                        <p>gulnar abba</p>
+                                        <p>and 23 adam beyendi</p>
+                                    </div>
+                                    <div class="social-count">
+                                        <div class="like-count">
+                                            <i class="fas fa-heart post-heart"></i>
+                                            <span>22</span>
+                                        </div>
+                                        <div class="share-count">
+                                            <i class="fas fa-share-alt-square"></i>
+                                            <span>13</span>
+                                        </div>
+                                        <div class="comment-count">
+
+                                            <i class="fas fa-comment-medical"></i>
+                                            <span>3</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-is-post">
+                            <div class="content-wrap">
+                                <div class="card-head">
+                                    <div class="user-block">
+                                        <div class="post-user-image">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                        </div>
+                                        <div class="user-info">
+                                            <a href="">gulnar abba</a>
+                                            <span class="time">yanvar 31 may </span>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-three-dots">
+                                        <div class="button-dots">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="post-text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+                                            exercitationem accusantium animi debitis, </p>
+                                    </div>
+                                    <div class="post-image">
+                                        <div class="masonry-grid">
+                                            <div class="masonry-columb-left">
+                                                    <a href="">
+                                                        <img class="masonry-photo" src="https://via.placeholder.com/1600x900" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img class="masonry-photo" src="https://via.placeholder.com/1600x900" alt="">
+                                                    </a>
+                                            </div>
+                                            <div class="masonry-columb-right">
+                                                <a href="">
+                                                    <img src="https://via.placeholder.com/1600x900" alt="">
+                                                </a>
+                                                <a href="">
+                                                    <img src="https://via.placeholder.com/1600x900" alt="">
+                                                </a>
+                                                <a href="">
+                                                    <img src="https://via.placeholder.com/1600x900" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="like-wrapper">
+                                            <a href="">
+                                                <i class="fas fa-heart post-heart"></i>
+                                                <i class="fas fa-heart post-heart"></i>
+                                                <span class="like-overlay"></span>
+                                            </a>
+                                        </div>
+                                        <div class="is-comment">
+                                            <a href="">
+                                                <i class="fas fa-comment-medical"></i>
+                                            </a>
+                                        </div>
+                                        <div class="is-share">
+                                            <a href="">
+                                                <i class="fas fa-share-alt-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="likers-group">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                    <div class="likers-text">
+                                        <p>gulnar abba</p>
+                                        <p>and 23 adam beyendi</p>
+                                    </div>
+                                    <div class="social-count">
+                                        <div class="like-count">
+                                            <i class="fas fa-heart post-heart"></i>
+                                            <span>22</span>
+                                        </div>
+                                        <div class="share-count">
+                                            <i class="fas fa-share-alt-square"></i>
+                                            <span>13</span>
+                                        </div>
+                                        <div class="comment-count">
+
+                                            <i class="fas fa-comment-medical"></i>
+                                            <span>3</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-is-post">
+                            <div class="content-wrap">
+                                <div class="card-head">
+                                    <div class="user-block">
+                                        <div class="post-user-image">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                        </div>
+                                        <div class="user-info">
+                                            <a href="">gulnar abba</a>
+                                            <span class="time">yanvar 31 may </span>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-three-dots">
+                                        <div class="button-dots">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="post-text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+                                            exercitationem accusantium animi debitis, </p>
+                                    </div>
+                                    <div class="post-link">
+                                        <div class="link-image">
+                                            <img src="https://via.placeholder.com/300x300" alt="">
+                                            
+                                            
+                                        </div>
+                                        <div class="link-content">
+                                            <h4><a href=""> Bulma CSS Framework ?</a></h4>
+                                            <p>Bulma is a mobile first CSS framework built on top of Flexbox. It's awesome and so easy to use.</p>
+                                            <small>bulma.io</small>
+                                            <div class="like-wrapper">
+                                                <a href="">
+                                                    <i class="fas fa-heart post-heart"></i>
+                                                    <i class="fas fa-heart post-heart"></i>
+                                                    <span class="like-overlay"></span>
+                                                </a>
+                                            </div>
+                                            <div class="is-comment">
+                                                <a href="">
+                                                    <i class="fas fa-comment-medical"></i>
+                                                </a>
+                                            </div>
+                                            <div class="is-share">
+                                                <a href="">
+                                                    <i class="fas fa-share-alt-square"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="likers-group">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                        
+                                        
+                                    </div>
+                                    <div class="likers-text">
+                                        <p>gulnar abba</p>
+                                        <p>and 23 adam beyendi</p>
+                                    </div>
+                                    <div class="social-count">
+                                        <div class="like-count">
+                                            <i class="fas fa-heart post-heart"></i>
+                                            <span>22</span>
+                                        </div>
+                                        <div class="share-count">
+                                            <i class="fas fa-share-alt-square"></i>
+                                            <span>13</span>
+                                        </div>
+                                        <div class="comment-count">
+
+                                            <i class="fas fa-comment-medical"></i>
+                                            <span>3</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card card-right">
+                            <div class="card-heading">
+                                <h4>Recommended Pages</h4>
+                                <div class="dropdown-three-dots">
+                                    <div class="button-dots">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body-left">
+                                <div class="story-block">
+                                    <a id="add-story-button" href="#" class="add-story">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>
+                                    </a>
+                                    <div class="story-meta">
+                                        <span>add a new story</span>
+                                        <span>share an image a video or some text</span>
+                                    </div>
+                                </div>
+                                <div class="story-block">
+                                    <div class="img-wrapper">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                    <div class="story-meta">
+                                        <span>gulnar abba</span>
+                                        <span>1 hour ago</span>
+                                    </div>
+                                </div>
+                                <div class="story-block">
+                                    <div class="img-wrapper">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                    <div class="story-meta">
+                                        <span>gulnar abba</span>
+                                        <span>1 hour ago</span>
+                                    </div>
+                                </div>
+                                <div class="story-block">
+                                    <div class="img-wrapper">
+                                        <img src="https://via.placeholder.com/300x300" alt="">
+                                    </div>
+                                    <div class="story-meta">
+                                        <span>gulnar abba</span>
+                                        <span>1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <script>
+        function accountvisibleFunction() {
+            var account_visible = document.querySelector('.account-dropdown');
+            var account_dropdown = document.querySelector('.nav-drop-account');
+            if (account_visible.style.display === 'flex') {
+                account_dropdown.style.display = 'block';
+            }
+            else {
+                account_image.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
